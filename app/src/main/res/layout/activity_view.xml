@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity_old"
+    android:orientation="vertical"
+    >
+
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Activity"
+        android:fontFamily="sans-serif-condensed-medium"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="EmpID"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Name"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtSalary"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Salary"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="SAVE"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="UPDATE"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="DELETE"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="VIEW"
+        >
+    </Button>
+-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+
+</LinearLayout>
